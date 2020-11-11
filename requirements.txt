@@ -1,0 +1,9 @@
+###### Requirements without Version Specifiers ######`
+datetime
+request
+bs4
+pandas
+gspread
+oauth2client
+numpy
+selenium
