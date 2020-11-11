@@ -10,11 +10,7 @@ FROM python:rc-buster
 #WORKDIR /usr/src/app
 
 COPY requirements.txt ./
-COPY pull.stats.py ./
-COPY updateBtn.py ./
-COPY pull.stats.v2.py ./
-COPY pull.stats.test.py ./
-COPY ./google.sheets/codCredentials.json ./google.sheets/codCredentials.json
+
 
 RUN pip install --no-cache-dir -r requirements.txt
 
