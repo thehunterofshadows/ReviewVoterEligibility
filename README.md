@@ -3,4 +3,6 @@
  
  website we will use to get data
  https://www.echovita.com/us/obituaries/wi/milwaukee
- 
+
+website for pulling the voting records
+ https://myvote.wi.gov/en-us/

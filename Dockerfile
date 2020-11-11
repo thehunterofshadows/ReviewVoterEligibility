@@ -5,7 +5,7 @@
 #docker run -d --rm --name voter.review hunterofshadows/voter.review:v1
 
 
-FROM python:rc-buster
+FROM python:3.9-buster
 
 #WORKDIR /usr/src/app
 

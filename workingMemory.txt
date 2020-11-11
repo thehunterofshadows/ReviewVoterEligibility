@@ -1,0 +1,23 @@
+
+working memory
+html code to look for
+<a class="text-name-obit-in-list text-color-default " href="/us/obituaries/wi/milwaukee/cynthia-j-mccann-11728771">
+Cynthia J. McCann
+</a>
+
+
+major steps
+1. look at cod data scrpe
+2. look at website and determine the dvision points you need
+3. pull those, and export to csv
+
+
+flow
+names database 
+1. grab the name
+2. grab the link to the full obt
+3. open full obt and grab brith and death date
+
+pull results
+1. enter info into voter registration
+2. when ballot recieved
