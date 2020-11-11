@@ -24,4 +24,4 @@ def get_website(url):
 
 siteData = get_website(staticSite)
 for div in siteData.find_all(attrs={'class' : re.compile('^text-name-obit-in-list text-color-default')}):
-    print(div)
+    print(div['href'])
