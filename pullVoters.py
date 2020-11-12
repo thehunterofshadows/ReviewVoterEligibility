@@ -19,9 +19,11 @@ def get_website(url):
     soup=bs(page,"html.parser")
     return soup
 
-
+def get_single_obt_url(endPiece):
+    return "".join(['https://www.echovita.com',endPiece])
 #main code
 
 siteData = get_website(staticSite)
 for div in siteData.find_all(attrs={'class' : re.compile('^text-name-obit-in-list text-color-default')}):
     print(div['href'])
+    print(get_single_obt_url(div['href']))

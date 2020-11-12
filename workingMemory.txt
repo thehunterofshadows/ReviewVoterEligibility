@@ -1,9 +1,6 @@
 
 working memory
-html code to look for
-<a class="text-name-obit-in-list text-color-default " href="/us/obituaries/wi/milwaukee/cynthia-j-mccann-11728771">
-Cynthia J. McCann
-</a>
+create loop to take url, add begining piece and pull new site
 
 
 major steps
