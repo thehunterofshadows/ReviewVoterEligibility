@@ -1,6 +1,6 @@
 
 working memory
-create loop to take url, add begining piece and pull new site
+convert text to date
 
 
 major steps
